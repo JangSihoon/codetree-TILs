@@ -4,6 +4,8 @@ cnt = 64
 for i in range(1,n+1):
     for j in range(i):
         cnt += 1
+        if chr(cnt)==90:
+            cnt==64
         print(chr(cnt),end = "")
     print()
 
